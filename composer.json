@@ -1,0 +1,19 @@
+{
+    "name": "seven/monitoring-handler",
+    "type": "neos-package",
+    "description": "",
+    "require": {
+        "neos/flow": "^6.0|^7.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seven\\Monitoring\\Handler\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Seven.Monitoring.Handler"
+        }
+    }
+}
